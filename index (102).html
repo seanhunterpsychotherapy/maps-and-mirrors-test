@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f0ede8">
+<title>Maps &amp; Mirrors — This page has moved</title>
+<!-- Redirect after a short delay so the visitor can read the notice.
+     The manual link below works immediately and is the reliable path
+     if the meta-refresh is blocked. -->
+<meta http-equiv="refresh" content="6; url=https://seanhunterpsychotherapy.github.io/maps-and-mirrors-tool/">
+<link rel="canonical" href="https://seanhunterpsychotherapy.github.io/maps-and-mirrors-tool/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f0ede8;
+    --card: #ffffff;
+    --text: #1c1a18;
+    --muted: #5e5854;
+    --border: rgba(100,90,80,0.15);
+    --shadow: rgba(40,30,20,0.08);
+    --accent: #2d5a6b;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1419;
+      --card: #1a2128;
+      --text: #e8e0d8;
+      --muted: #8a9aaa;
+      --border: rgba(150,170,190,0.15);
+      --shadow: rgba(0,0,0,0.4);
+      --accent: #5a9ab0;
+    }
+  }
+
+  html, body { height: 100%; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px var(--shadow);
+    max-width: 460px;
+    width: 100%;
+    padding: 36px 32px;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 1.55rem;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+
+  .tagline {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin-bottom: 22px;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: var(--text);
+    margin-bottom: 14px;
+  }
+
+  .muted {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  .cta {
+    display: inline-block;
+    margin: 8px 0 18px;
+    padding: 12px 26px;
+    background: var(--accent);
+    color: #ffffff;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.18s ease;
+  }
+  .cta:hover, .cta:focus { opacity: 0.85; }
+  .cta:focus { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 18px 0;
+  }
+
+  .url {
+    font-size: 0.82rem;
+    color: var(--muted);
+    word-break: break-all;
+  }
+  .url a { color: var(--accent); }
+</style>
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>Maps &amp; Mirrors has moved</h1>
+    <p class="tagline">Your lighthouse in the fog.</p>
+
+    <p>This was a test address. The tool now lives at a new, permanent home.</p>
+
+    <a class="cta" href="https://seanhunterpsychotherapy.github.io/maps-and-mirrors-tool/">
+      Go to Maps &amp; Mirrors &rarr;
+    </a>
+
+    <p class="muted">You'll be taken there automatically in a few seconds. If nothing happens, use the button above.</p>
+
+    <hr class="divider">
+
+    <p class="url">
+      New address:<br>
+      <a href="https://seanhunterpsychotherapy.github.io/maps-and-mirrors-tool/">seanhunterpsychotherapy.github.io/maps-and-mirrors-tool/</a>
+    </p>
+    <p class="muted" style="margin-top:10px;">You may want to update any saved bookmark.</p>
+  </main>
+
+  <script>
+    // JS redirect as a fallback path. The <meta refresh> above is the
+    // primary mechanism; this mirrors it in case meta-refresh is
+    // disabled, and keeps the same short delay so the notice is
+    // readable first. Wrapped defensively so a blocked navigation
+    // never leaves the page in a broken state.
+    (function () {
+      try {
+        setTimeout(function () {
+          window.location.href =
+            'https://seanhunterpsychotherapy.github.io/maps-and-mirrors-tool/';
+        }, 6000);
+      } catch (e) { /* manual link remains available */ }
+    })();
+  </script>
+</body>
+</html>
